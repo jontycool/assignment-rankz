@@ -13,7 +13,9 @@ class EachProject extends Component {
             <p className='text-regular url'>{this.props.url}</p>
           </div>
           <div className='action-container'>
-            <p className='text-regular'>Last Updated: 1 hour ago</p>
+            <p className='text-regular'>
+              Last Updated: <span className='text-update'>1 hour ago</span>
+            </p>
             <button className='menu-button'>
               <span className='dot'></span>
               <span className='dot'></span>

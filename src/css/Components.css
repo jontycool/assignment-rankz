@@ -220,6 +220,12 @@ p {
 .css-g1d714-ValueContainer {
   padding: 0px !important;
 }
+.css-6q0nyr-Svg {
+  fill: #1a181e !important;
+}
+.country-select__indicator {
+  color: #1a181e !important;
+}
 /* -----react-select Customisation Ends----- */
 
 /* --------------------CSS For ProjectActions.js Component-------------------- */
@@ -352,6 +358,10 @@ p {
   line-height: 22px;
   font-size: 14px;
   color: #808080;
+}
+
+.text-update {
+  color: #4d4d4d;
 }
 
 .text-data {

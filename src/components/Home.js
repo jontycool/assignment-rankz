@@ -42,11 +42,11 @@ class Home extends Component {
       <div>
         <div className='sidebar'>
           <a href='#' className='main-logo'>
-            <img src={Logo} />
+            <img alt=' ' src={Logo} />
           </a>
           <a href='#' className='active'>
             <span>
-              <img src={Dashboard} width='20' height='20' />
+              <img alt=' ' src={Dashboard} width='20' height='20' />
             </span>
             <span>Dashboard</span>
           </a>
@@ -54,11 +54,11 @@ class Home extends Component {
             trigger={
               <a href='#'>
                 <span>
-                  <img src={SiteExplorer} width='20' height='20' />
+                  <img alt=' ' src={SiteExplorer} width='20' height='20' />
                 </span>
                 <span>Site Explorer</span>
                 <span>
-                  <img src={Arrow} />
+                  <img alt=' ' src={Arrow} />
                 </span>
               </a>
             }
@@ -70,11 +70,11 @@ class Home extends Component {
             trigger={
               <a href='#'>
                 <span>
-                  <img src={KeywordExplorer} width='20' height='20' />
+                  <img alt=' ' src={KeywordExplorer} width='20' height='20' />
                 </span>
                 <span>Keyword Explorer</span>
                 <span>
-                  <img src={Arrow} />
+                  <img alt=' ' src={Arrow} />
                 </span>
               </a>
             }
@@ -84,7 +84,7 @@ class Home extends Component {
           </Collapsible>
           <a href='#'>
             <span>
-              <img src={RankTracker} width='20' height='20' />
+              <img alt=' ' src={RankTracker} width='20' height='20' />
             </span>
             <span>Rank Tracker</span>
           </a>
@@ -92,11 +92,11 @@ class Home extends Component {
             trigger={
               <a href='#'>
                 <span>
-                  <img src={DistributeContent} width='20' height='20' />
+                  <img alt=' ' src={DistributeContent} width='20' height='20' />
                 </span>
                 <span>Distribute Content</span>
                 <span>
-                  <img src={Arrow} />
+                  <img alt=' ' src={Arrow} />
                 </span>
               </a>
             }
@@ -108,11 +108,11 @@ class Home extends Component {
             trigger={
               <a href='#'>
                 <span>
-                  <img src={PPCExplorer} width='20' height='20' />
+                  <img alt=' ' src={PPCExplorer} width='20' height='20' />
                 </span>
                 <span>PPC Explorer</span>
                 <span>
-                  <img src={Arrow} />
+                  <img alt=' ' src={Arrow} />
                 </span>
               </a>
             }
@@ -124,11 +124,11 @@ class Home extends Component {
             trigger={
               <a href='#'>
                 <span>
-                  <img src={MoreTools} width='20' height='20' />
+                  <img alt=' ' src={MoreTools} width='20' height='20' />
                 </span>
                 <span>More Tools</span>
                 <span>
-                  <img src={Arrow} />
+                  <img alt=' ' src={Arrow} />
                 </span>
               </a>
             }
@@ -138,7 +138,7 @@ class Home extends Component {
           </Collapsible>
           <a href='#'>
             <span>
-              <img src={Integrations} width='20' height='20' />
+              <img alt=' ' src={Integrations} width='20' height='20' />
             </span>
             <span>Integrations</span>
           </a>
@@ -149,14 +149,14 @@ class Home extends Component {
             <div className='profile-container'>
               <div className='profile-actions'>
                 <button>
-                  <img src={Help} width='18px' height='18px' />
+                  <img alt=' ' src={Help} width='18px' height='18px' />
                 </button>
                 <button>
-                  <img src={Notification} width='18px' height='18px' />
+                  <img alt=' ' src={Notification} width='18px' height='18px' />
                 </button>
               </div>
               <button className='user-icon'>
-                <img src={User} width='36px' height='36px' />
+                <img alt=' ' src={User} width='36px' height='36px' />
               </button>
             </div>
           </div>
