@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* --------------------CSS For Home.js Component-------------------- */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 17%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1e2640;
+  padding: 24px 0px;
+}
+
+.sidebar .main-logo {
+  margin-bottom: 48px;
+  padding: 0px 24px;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 15px 12px 24px;
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-content: center;
+}
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.sidebar a span:nth-child(2) {
+  margin-left: 10px;
+}
+.sidebar a span:nth-child(3) {
+  align-self: center;
+  margin-left: auto;
+}
+
+.sidebar .active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-logo:hover {
+  background-color: transparent !important;
+}
+
+.text-option {
+  padding: 12px 15px 12px 24px;
+  color: #cccccc;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-content: center;
+}
+
+.main {
+  margin-left: 17%;
+  background-color: #f7f7f7;
+  height: 100%;
+  min-height: 912px;
+}
+
+.header {
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  padding: 0px 32px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.header p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 20px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.profile-container {
+  width: 156px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-container button {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  background-color: #e6e6e6;
+  outline: none;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.profile-actions {
+  width: 88px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbar-container {
+  margin: 32px;
+  background-color: #ffffff;
+  width: inherit;
+  min-width: 1080px;
+  height: 92px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 0 rgba(26, 24, 30, 0.04);
+}
+
+.project-action-container {
+  width: inherit;
+  min-width: 1080px;
+  height: 40px;
+  margin: 8px 32px 24px 32px;
+}
+
+/* --------------------CSS For SearchBar.js Component-------------------- */
+
+.searchbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.domain-searchbar {
+  width: 67%;
+  height: 44px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.location-select {
+  width: 18%;
+  height: 44px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.search-button {
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgba(116, 66, 211, 0.4);
+  cursor: pointer;
+}
+.search-button:hover {
+  background-color: rgba(116, 66, 211, 1);
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.eachOption {
+  display: flex;
+  align-items: center;
+}
+.eachOption span:nth-child(1) {
+  height: 16px;
+}
+.eachOption span:nth-child(2) {
+  margin-left: 2px;
+}
+
+.text-country {
+  line-height: 20px;
+  font-size: 14px;
+  color: #1a181e !important;
+}
+
+/* -----react-select Customisation Starts----- */
+.country-select__control,
+.css-1pahdxg-control {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.css-yk16xz-control:active,
+.css-1pahdxg-control:hover,
+.css-yk16xz-control:hover {
+  outline: none !important;
+  border: none !important;
+}
+.css-1okebmr-indicatorSeparator {
+  width: 0px !important;
+}
+.css-g1d714-ValueContainer {
+  padding: 0px !important;
+}
+/* -----react-select Customisation Ends----- */
+
+/* --------------------CSS For ProjectActions.js Component-------------------- */
+.project-action {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-searchbar-container {
+  width: 205px;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #e6e6e6;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-searchbar-container input {
+  margin-left: 10px;
+  width: 75%;
+  border: none;
+  outline: none;
+}
+
+.button-container {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.refresh-button {
+  width: 141px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  outline: none;
+  border-radius: 4px;
+  border: solid 1px #e6e6e6;
+  cursor: pointer;
+}
+
+.project-button {
+  width: 153px;
+  height: 40px;
+  background-color: #7442d3;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* --------------------CSS For ProjectList.js Component-------------------- */
+
+.project-container {
+  margin: 0px 32px 16px 32px;
+  width: inherit;
+  min-width: 1080px;
+  height: 145px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 0 rgba(26, 24, 30, 0.04);
+  background-color: #ffffff;
+}
+
+/* --------------------CSS For EachProject.js Component-------------------- */
+
+.project-details {
+  height: 100%;
+  padding: 20px 24px 16px 24px;
+}
+
+.project-header {
+  height: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.name-container {
+  display: flex;
+  grid-column: 1/3;
+  justify-content: flex-start;
+}
+
+.url {
+  margin-left: 12px;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: 6/7;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #989898;
+  margin: 1px;
+}
+.menu-button {
+  height: 15px;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.text-bold {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a181e;
+}
+
+.text-regular {
+  line-height: 22px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.text-data {
+  line-height: 34px;
+  color: #1a181e;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-change {
+  color: #17b31b;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-small {
+  color: #989898;
+  line-height: 16px;
+  font-size: 12px;
+}
+.black {
+  color: #1a181e;
+  font-weight: 500;
+}
+.red {
+  color: #e50b20;
+  font-weight: 500;
+}
+.green {
+  color: #17b31b;
+  font-weight: 500;
+}
+
+.text-location {
+  color: #1a181e;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+hr {
+  background-color: #e8e8e8;
+  height: 1px;
+  border: none;
+}
+
+.data {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.data p:nth-child(2) {
+  margin-left: 8px;
+}
+
+.project-info {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr 0.7fr 0.8fr 0.9fr 1fr;
+}
+
+.avg-position {
+  grid-column: 1/2;
+}
+
+.keywords {
+  grid-column: 2/3;
+}
+
+.serp {
+  grid-column: 3/4;
+}
+
+.positions {
+  grid-column: 4/5;
+}
+
+.position-info {
+  grid-column: 5/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+.line {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 0.4fr 0.2fr 0.2fr;
+}
+.line p:nth-child(2) {
+  justify-self: end;
+}
+.line p:nth-child(3) {
+  justify-self: end;
+}
+
+.location {
+  grid-column: 6/7;
+}
+
+.flag {
+  margin: 0px;
+  padding: 0px;
+  width: 24px;
+  height: 16px;
+}
+.flag img {
+  justify-self: start;
+  width: 24px;
+  height: 16px;
+  border-radius: 2px;
+}
